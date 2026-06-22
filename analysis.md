@@ -60,3 +60,47 @@ job:
   4. 프론트 자체 개발 전제 → 연동 친화적 API + Swagger 문서 제공
   5. 정부지원사업 행정 절차 이해 (사업자등록증·세금계산서 발행 가능)
 - 기술 스택: Python 3.12 · FastAPI · PostgreSQL · SQLAlchemy/Alembic · Celery+Redis · httpx · OpenAI/LangChain · pgvector · Swagger · Docker
+
+## 6. 최종 산출물 (8단계 출력 전문)
+
+### 제안서 사이트 URL
+https://proposal-router.claude-ai-b27.workers.dev/proposal-career-explorer-data-pipeline-api/
+
+### 지원 금액
+4,250,000원 (VAT 별도) — 클라이언트 예상 5,000,000원의 85%
+
+### 지원 기간
+90일
+
+### 클라이언트 질문 답변
+공고 내 별도 질문 없음 — 해당 없음.
+
+### 지원 내용 (전체)
+
+안녕하세요, 경력 탐색 서비스를 위한 데이터 수집 파이프라인 및 백엔드 API 서버 구축 프로젝트에 지원합니다.
+
+본 프로젝트에 대한 상세 제안서(견적서, 공수계산서, PRD, 일정, 포트폴리오)를 별도 페이지로 준비하였습니다.
+▶ 제안서 상세 페이지: https://proposal-router.claude-ai-b27.workers.dev/proposal-career-explorer-data-pipeline-api/
+▶ 위시켓 포트폴리오: https://www.wishket.com/partners/p/blueverse1/
+
+[프로젝트 분석] 공공 데이터(고용통계·커리어넷·워크넷) 안정적 수집 ETL 파이프라인 + 내부 프론트 연동 RESTful API 서버. Rate Limit·수집 안정성을 설계 단계부터 반영. 공고 우선순위(파이프라인→DB→API→LLM)를 마일스톤으로 구성. LLM/RAG 보고서까지 예산 내 포함 제안.
+
+[작업 일정]
+- Phase 1 설계 & 데이터 모델링: Day 1–15
+- Phase 2 데이터 파이프라인(ETL): Day 16–45
+- Phase 3 백엔드 API 서버: Day 46–66
+- Phase 4 LLM/RAG 맞춤형 보고서: Day 67–80
+- Phase 5 QA & 배포 & 인수인계: Day 81–90
+
+[마일스톤] M1(D15) 설계 승인 / M2(D45) 파이프라인 가동 / M3(D66) API 완료 / M4(D80) LLM 보고서 / M5(D90) 최종 납품
+[산출물] 백엔드·파이프라인 소스코드, DB 설계 문서(ERD), API 명세서(Swagger/Postman)
+
+[협의 필요] 공공 API 키 발급 주체·호출 한도 / 수집 직군·자격증 범위·최신화 주기 / LLM 보고서 형식·OpenAI 비용 부담 / 호스팅 인프라
+
+### 관련 포트폴리오 추천
+1. P2P 크라우드펀딩 플랫폼 — Python·외부 API 연동·크론 배치 (ETL 파이프라인 직결)
+2. AI-Native 개발 프레임워크 — RAG·LLM 연동·프롬프트 엔지니어링 (맞춤형 보고서 직결)
+3. VC 펀드 관리 플랫폼 — 대규모 REST API·DB 모델링·AI 보고서 (API 서버 + LLM 양면 커버)
+
+### 기술 스택
+Python 3.12 · FastAPI · PostgreSQL · SQLAlchemy/Alembic · Celery+Redis · httpx · OpenAI/LangChain · pgvector · Swagger · Docker
